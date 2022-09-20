@@ -9,6 +9,7 @@ def evalLegendreBasis1D( degree, variate ):
         val = 1.0
     elif degree == 1:
         val = variate
+        #john is gay
     else:
         i = degree - 1
         term_1 = i*evalLegendreBasis1D(degree = i - 1, variate = variate)
