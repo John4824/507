@@ -3,6 +3,7 @@ import math
 import numpy
 
 def evalLegendreBasis1D( degree, variate ):
+    
     # set val here
     if degree == 0:
         val = 1.0
